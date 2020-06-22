@@ -1,0 +1,47 @@
+{
+  "name": "golab",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "start:android": "react-native run-android",
+    "start:ios": "react-native run-ios --simulator=\"iphone 11\"",
+    "start:web": "react-scripts start",
+    "build:web": "react-scripts build",
+    "test:native": "jest",
+    "test:web": "react-scripts test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "0.62.2",
+    "react-native-web": "^0.12.3",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
